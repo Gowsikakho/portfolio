@@ -1,5 +1,26 @@
-*{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.about {
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;            
+}
+.cont{
+    width: 100vw;
+    padding: 2rem;
+    max-width: 60vw;
+    padding-left: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    text-align: left;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
 }
