@@ -139,3 +139,8 @@ main{
   margin-top:60px;
   margin-left:320px;
 }
+.photo{
+  box-shadow: 0 4px 20px rgba(243, 240, 240, 0);
+
+  background-color: #f5f5f500;
+}
